@@ -1,6 +1,6 @@
 /* CSS para os padroes */
 * {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +10,10 @@ body {
 } <!--Zoom. #paratodosverem-->
 
 img {
-    size:30px;
+    height:30px;
+    width:30px;
+    padding: 10px;
+    display: flex;
 }
 
 title{
