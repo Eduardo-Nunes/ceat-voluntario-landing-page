@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-    font-size: 48pt;
+    font-size: 48pt; 
     font-weight: 900;
     letter-spacing: 1px;
 }
@@ -45,7 +45,7 @@ h2 {
 }
 
 footer {
-    background-color: #6373CA;
+    background-color: #6373CA;    
     color: #FAFAFA;
 }
 
