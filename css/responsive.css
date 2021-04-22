@@ -2,45 +2,39 @@
 
 /* Extra Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) {
+    .main {
+        margin: 0 0.75rem;
+    }
+
     .partners__images {
         height: 25vw;
         width: 25vw;
         padding: 2vw;
     }
-
-    .form form {
-        left: -3%;
-    }
-
-    .box__one {
-        right: 40%;
-        top: 75px;
-    }
-
-    .box__two {
-        left: 5%;
-        bottom:200px;
-    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .main {
+        margin: 0 1rem;
+    }
+
     .partners__images {
         height: 19vw;
         width: 19vw;
         padding: 2vw;
     }
 
-    .form form {
-        left: 30px;
+    .form {
+        max-width: 420px;
     }
 
-    .box__one {
+    .circle__one {
         right: 125px;
         top: 75px;
     }
 
-    .box__two {
+    .circle__two {
         left: 125px;
         bottom: 150px;
     }
@@ -49,46 +43,30 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .partners__images {
-        height: 20vw;
-        width: 20vw;
-        padding: 2vw;
+        height: 22vw;
+        width: 22vw;
+        padding: 3vw;
     }
 
-    .form form {
-        left: 50%;
-    }
-
-    .box__one {
-        right: 0;
-        top: 75px;
-    }
-
-    .box__two {
-        left: 80%;
-        bottom: 20%;
+    .form {
+        max-width: 480px;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .main {
+        margin: 0 2rem;
+    }
+
     .partners__images {
         height: 15vw;
         width: 15vw;
         padding: 1vw;
     }
 
-    .form form {
-        left: 20px;
-    }
-
-    .box__one {
-        right: 100px;
-        top: 75px;
-    }
-
-    .box__two {
-        left: 70px;
-        bottom: 150px;
+    .form {
+        max-width: 420px;
     }
 }
 
@@ -96,6 +74,10 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .main {
+        margin: 0 3rem;
+    }
+
     .partners__images {
         height: 16vw;
         width: 16vw;
@@ -105,44 +87,15 @@
     aside {
         padding: 0 0 0 0.75rem !important;
     }
-
-    .form form {
-        left: 30px;
-    }
-
-    .box__one {
-        right: 125px;
-        top: 75px;
-    }
-
-    .box__two {
-        left: 120px;
-        bottom: 150px;
-    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .partners__images {
-        /* height: 250px;
-        width: 250px;
-        padding: 24px; */
-        height: 20vw;
-        width: 20vw;
+        max-height: 400px;
+        max-width: 400px;
+        height: 18vw;
+        width: 18vw;
         padding: 4vw;
-    }
-
-    .form form {
-        left: 40px;
-    }
-
-    .box__one {
-        right: 150px;
-        top: 75px;
-    }
-
-    .box__two {
-        left: 200px;
-        bottom: 150px;
     }
 }

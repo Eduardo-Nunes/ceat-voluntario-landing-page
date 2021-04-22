@@ -17,17 +17,20 @@ h1,h2,h3 {
 /* CSS para as tags do HTML */
 
 body {
-    width: 100vw;
+    width: 100%;
     color: #3B405F;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    padding: 48px 24px;
-    width: 100vw;
+    padding: 48px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ffbb5cce;
+    background-color: #ffbb5ce5;
     color: #5A4FBE;
 }
 
