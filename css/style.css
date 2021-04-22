@@ -18,7 +18,7 @@ h1,h2,h3 {
 
 body {
     width: 100vw;
-    color: #3B405F;
+    color: #3B405F; <!--Cores simples #paratodosverem-->
 }
 
 header {
@@ -32,7 +32,7 @@ header {
 }
 
 h1 {
-    font-size: 48pt;
+    font-size: 48pt; 
     font-weight: 900;
     letter-spacing: 1px;
 }
@@ -42,7 +42,7 @@ h2 {
 }
 
 footer {
-    background-color: #6373CA;
+    background-color: #6373CA; <!--Cores simples #paratodosverem-->
     color: #FAFAFA;
 }
 
