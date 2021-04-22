@@ -116,57 +116,137 @@
         </main>
         <aside class="col-lg-4 form__container">
           <section class="form">
-            <form>
-              <h3>Entre em Contato:</h3>
-              <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="username-data" />
-              </div>
-              <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="Email" id="email-data" />
-              </div> <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="username-data" />
-              </div>
-              <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="Email" id="email-data" />
-              </div> <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="username-data" />
-              </div>
-              <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="Email" id="email-data" />
-              </div> <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="username-data" />
-              </div>
-              <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="Email" id="email-data" />
-              </div> <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="username-data" />
-              </div>
-              <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="Email" id="email-data" />
-              </div>
-              <div>
-                <label for="msg">Mensagem:</label>
-                <textarea
-                  name="mensagem"
-                  id="msg"
-                  cols="30"
-                  rows="5"
-                ></textarea>
-              </div>
-              <div class="button">
-                <input type="submit" value="Enviar sua mensagem" />
-              </div>
-            </form>
+            <form name="dados" id="dados" action="" method="post">
+            <h2>FAÇA PARTE DE NOSSA HISTÓRIA!</h2>
+            <h3>Sobre Você</h3>
+        
+            <div class="campos">
+                <label for="nome">Nome</label>
+                <!-- # uxwriting (Placeholders)-->
+                <input type="text" id="nome" placeholder="Seu nome completo e sem abreviações" autofocus required>
+            </div>
+            
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="cpf">CPF</label>
+                    <label for="nascimento">Data de Nascimento</label>
+                    <label for="sexo">Sexo</label>
+                </div>
+
+                <div class="em__linha">
+                    <input type="cpf" id="cpf" required placeholder="Ex: 012.345.678-99">
+                    <input type="date" id="data" required >
+                    <input list="opsexo" id="sexo" name= "sexo" required placeholder="Opcional">
+                        <datalist  id = "opsexo">
+                            <option value ="Masculino">
+                            <option value ="Feminino">
+                            <option value ="Prefiro não informar">
+                        </datalist>
+                </div> 
+            </div>
+
+            <hr>
+            <h3>Contatos</h3>
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="telefone">Telefone</label>
+                    <label for="email">E-mail</label>
+                    <label for="cep">CEP</label>
+                    <label for="estado">Estado</label>
+                </div>
+                <div class="em__linha">
+                    <input type="tel" id="telefone" required placeholder="Ex: 12-3456-7890">
+                    <input type="email" id="email" required placeholder="Ex: seumelhor@email.com">
+                    <input type="text" id="cep" required placeholder="Ex: 12345-678">
+                    <input list="uf" id="estados" class="lista" required placeholder="Ex: Qual o seu estado?">
+                    <datalist id="uf">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </datalist>
+                </div>
+            </div>
+
+            <hr>
+            <h3>Sobre a Parceria</h3>
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="tempodisp">Tempo disponível</label>
+                    <label for="melhordia">Qual o melhor dia para você?</label>
+                    <label for="piordia">Qual dia é inviável?</label>
+                    <label for="acao">Como pode nos ajudar?</label>
+                </div>
+
+                <div class="em__linha">
+                
+                    <input list="hrs" id="tempodisp" name= "tempodisp" required placeholder="Horais mensais disponíveis">
+                        <datalist  id = "hrs">
+                            <option value ="Até 2h mensais">
+                            <option value ="Entre 2h e 4h mensais">
+                            <option value ="Entre 4h e 8h mensais">
+                            <option value ="Entre 8h e 12h mensais">
+                            <option value ="Acima de 12h mensais">
+                        </datalist>
+
+                        <input list="dia" id="melhordia" name= "melhordia" required placeholder="Dia da semana">
+                        <datalist  id = "dia">
+                            <option value ="Segunda">
+                            <option value ="Terça">
+                            <option value ="Quarta">
+                            <option value ="Quinta">
+                            <option value ="Sexta">
+                            <option value ="Sábado">
+                            <option value ="Domingo">
+                            <option value ="Todos os dias úteis">
+                            <option value ="Durante o fim de semana">
+                        </datalist>
+
+                        <input list="dia" id="piordia" name= "piordia" required placeholder="Dia da semana">
+                        <datalist  id = "dia">
+                            <option value ="Segunda">
+                            <option value ="Terça">
+                            <option value ="Quarta">
+                            <option value ="Quinta">
+                            <option value ="Sexta">
+                            <option value ="Sábado">
+                            <option value ="Domingo">
+                            <option value ="Todos os dias úteis">
+                            <option value ="Durante o fim de semana">
+                        </datalist>
+
+                    <input type="text" id="acao" required placeholder="Ex: Mentorias e tutorias">
+                </div>
+
+
+                <div class="botoes">
+                    <input type="submit" value="Cadastrar-se">
+                </div>
+            </div>
+        </form>
             <div class="round__box box__one"></div>
             <div class="round__box box__two"></div>
           </section>
