@@ -1,0 +1,16 @@
+.main{
+    margin:0 3rem;
+}
+
+.content {
+    margin: 5vh 0;
+}
+
+.content h2 {
+    margin-bottom: 24px;
+}
+
+.content p {
+    font-size: 18pt;
+    text-align: left;
+}

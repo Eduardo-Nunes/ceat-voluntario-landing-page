@@ -1,0 +1,26 @@
+.partners {
+    margin: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners h2 {
+    margin-bottom: 24px;
+}
+
+.partners__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73vw;
+    width: 80vw;
+    border: 1px solid #6B6F83;
+    border-radius: 50%;
+    margin: 8px;
+    padding: 5vw;
+}
+
+.partners img {
+    z-index: -1;
+}
