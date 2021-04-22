@@ -18,7 +18,7 @@ h1,h2,h3 {
 
 body {
     width: 100vw;
-    color: #3B405F;      <!--Cores simples #paratodosverem-->
+    color: #3B405F;     
 }
 
 header {
@@ -42,7 +42,7 @@ h2 {
 }
 
 footer {
-    background-color: #6373CA;     <!--Cores simples #paratodosverem-->
+    background-color: #6373CA;    
     color: #FAFAFA;
 }
 
