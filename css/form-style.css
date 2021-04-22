@@ -30,3 +30,9 @@
     padding: 10px 0 5px;
     outline: none;
 }
+
+.botoes{
+    background-color: #5A4FBE;
+    font-size: 15px;
+    color: #fffff;
+}
