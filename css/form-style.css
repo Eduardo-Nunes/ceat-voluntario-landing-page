@@ -31,9 +31,10 @@
     outline: none;
 }
 
-.botoes{
+.botoes input{
     background-color: #5A4FBE;
     padding: 2px 9px;
     margin-bottom: 12px;
     border: 0px;
+    font-size: 15px #ffffff;
 }
